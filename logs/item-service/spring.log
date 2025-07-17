@@ -1,0 +1,41 @@
+15:53:09:128  INFO 4976 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.14 on DESKTOP-TQ1K9GE with PID 4976 (C:\project\hmsc\hmall\item-service\target\classes started by A in C:\project\hmsc\hmall)
+15:53:09:130 DEBUG 4976 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:53:09:130  INFO 4976 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "dev"
+15:53:10:108  INFO 4976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+15:53:10:115  INFO 4976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:53:10:116  INFO 4976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:53:10:197  INFO 4976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:53:10:198  INFO 4976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+15:53:10:783  INFO 4976 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:53:10:852  INFO 4976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+15:53:10:852  INFO 4976 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:53:10:853  INFO 4976 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:53:10:874  INFO 4976 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:53:10:964  INFO 4976 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.213 seconds (JVM running for 2.838)
+15:54:10:394  INFO 25152 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.14 on DESKTOP-TQ1K9GE with PID 25152 (C:\project\hmsc\hmall\item-service\target\classes started by A in C:\project\hmsc\hmall)
+15:54:10:397 DEBUG 25152 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:54:10:397  INFO 25152 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+15:54:11:339  INFO 25152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+15:54:11:345  INFO 25152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:54:11:345  INFO 25152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:54:11:415  INFO 25152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:54:11:415  INFO 25152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+15:54:12:021  INFO 25152 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:54:12:081  INFO 25152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+15:54:12:082  INFO 25152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:54:12:084  INFO 25152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:54:12:102  INFO 25152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:54:12:205  INFO 25152 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.209 seconds (JVM running for 2.653)
+15:54:33:336  INFO 25152 --- [http-nio-8081-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_a1ff8825baa73c3a78eb96aa40325abc=1733717939,1733739366;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:54:33:341  INFO 25152 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:54:33:341  INFO 25152 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:54:33:341  INFO 25152 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+15:54:56:500  INFO 25152 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:54:56:805  INFO 25152 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:54:56:814 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item
+15:54:56:834 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 
+15:54:56:872 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:54:56:884 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item ORDER BY update_time DESC LIMIT ?
+15:54:56:884 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 20(Long)
+15:54:56:902 DEBUG 25152 --- [http-nio-8081-exec-3] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 20
