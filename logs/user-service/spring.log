@@ -2505,3 +2505,13 @@ com.mysql.cj.exceptions.CJException: Data source rejected establishment of conne
 17:05:03:321  INFO 26788 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 6.407 seconds (JVM running for 6.998)
 17:05:03:513  INFO 26788 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [53bf9199-0225-4579-b8bd-487c7fb9cead] Receive server push request, request = NotifySubscriberRequest, requestId = 155
 17:05:03:518  INFO 26788 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [53bf9199-0225-4579-b8bd-487c7fb9cead] Ack server push request, request = NotifySubscriberRequest, requestId = 155
+17:36:59:558  INFO 26788 --- [http-nio-8084-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_a1ff8825baa73c3a78eb96aa40325abc=1733717939,1733739366;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17:36:59:562  INFO 26788 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:36:59:562  INFO 26788 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+17:36:59:562  INFO 26788 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+17:36:59:714  INFO 26788 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+17:37:00:033  INFO 26788 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+17:37:00:044 DEBUG 26788 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+17:37:00:070 DEBUG 26788 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+17:37:00:101 DEBUG 26788 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
